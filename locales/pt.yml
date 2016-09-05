@@ -1,4 +1,4 @@
-pt:
+pt-BR:
   app:
     desc: is a command line tool that allows you to manage and synchronize your localization resources with Crowdin project
     long_desc: |
