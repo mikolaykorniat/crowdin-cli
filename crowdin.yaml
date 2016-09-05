@@ -1,0 +1,15 @@
+files:
+  - 
+    source: /locales/
+    translation: '/%original_path%/%two_letters_code%.%file_extension%'
+    languages_mapping:
+      two_letters_code:
+        ja: jp
+  - 
+    source: '*.md'
+    ignore:
+      - '/*/*.md'
+    translation: '/%file_name%-%two_letters_code%.%file_extension%'
+    languages_mapping:
+      two_letters_code:
+        ja: jp
