@@ -54,8 +54,7 @@ en:
                 desc: Automatically approve uploaded translations
       download:
         desc: Download latest translations from Crowdin and put them to the right places in your project
-        long_desc: |
-          Download latest translations from Crowdin and put them to the right places in your project
+        long_desc: Download latest translations from Crowdin and put them to the right places in your project
         flags:
           language:
             desc: |
@@ -63,16 +62,12 @@ en:
               Otherwise (by default) translations are downloaded for all languages
         switches:
           ignore_match:
-            desc: |
-              Exit with a zero even if no files matched
+            desc: Exit with a zero even if no files matched
           include_unchanged:
-            desc: |
-              Download all translation files whether or not they have changes
-
+            desc: Download all translation files whether or not they have changes
       list:
         desc: Show a list of files (the current project)
-        long_desc: |
-          List information about the files. List only those files that match the wild-card pattern
+        long_desc: List information about the files. List only those files that match the wild-card pattern
         commands:
           project:
             desc: List information about the files that already exists in current project
